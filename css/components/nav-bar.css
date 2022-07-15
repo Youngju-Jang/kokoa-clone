@@ -16,8 +16,7 @@
     position: relative;
 }
 
-.nav__notification{
-    
+.nav__notification{    
     left: 15px;
     bottom: 15px;
     position: absolute;

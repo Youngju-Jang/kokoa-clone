@@ -18,4 +18,13 @@ body {
 }
 .screen-header__icons span{
     margin-left: 25px;
+    position: relative;
+}
+.screen-header__notification{    
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    left: 30px;
+    bottom: 20px;
+    position: absolute;
 }

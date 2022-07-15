@@ -4,6 +4,11 @@
 }
 .user-component {
     justify-content: space-between;
+    padding: 2px;
+    margin-bottom: 7px;
+}
+.user-component:hover {
+    background-color: rgba(0, 0, 0, 0.05);
 }
 .user-component,
 .user-component__column:first-child{
