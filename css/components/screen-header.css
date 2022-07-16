@@ -1,8 +1,4 @@
-body {
-    padding-top: 100px !important;
-}
-.screen-header{
-    box-sizing: border-box;
+.screen-header{    
     position: fixed;
     top: 5px;
     width: 100%;
@@ -11,6 +7,7 @@ body {
     padding: var(--horizontal-space);
     align-items: center;
     background-color: white;
+    z-index: 1;
 }
 .screen-header__title{
     font-size: 28px;
