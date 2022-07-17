@@ -19,19 +19,30 @@
     position: relative;
 }
 
+@keyframes makeHeart {
+    0% {
+        bottom: 25px;
+        left: 8px;
+        opacity: 0; 
+    }
+    50% {
+        opacity: 1;
+        bottom: 30px;
+        left: 25px;  
+    }
+    80% {
+        opacity: 0; 
+    }
+    100% {
+        opacity: 0; 
+    }
+}
 .nav__link .fa-heart {
     position: absolute;
-    bottom: 25px;
-    left: 8px;
-    opacity: 0;        
-    transition: all 0.5s ease-in-out ;    
-}
-.nav__link:hover .fa-heart {
-    opacity: 1;
-    bottom: 30px;
-    left: 25px;
-    color: red;
-}
+    color: red;     
+    animation: makeHeart 1s linear infinite;    
+} 
+
 @keyframes notificationAnimation {
     0% {
         transform: none;
