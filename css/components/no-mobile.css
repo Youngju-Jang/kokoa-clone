@@ -18,3 +18,15 @@
         display: none;
     }
 }
+
+@media screen and (min-width: 646px) and (orientation: portrait){
+    #no-landscape {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 646px) and (orientation: landscape){
+    #no-mobile {
+        display: none;
+    }
+}
