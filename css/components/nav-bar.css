@@ -7,6 +7,9 @@
     padding: 20px 50px;
     box-sizing: border-box;
 }
+.nav i:hover {
+    color: pink;
+}
 .nav__list {
     display: flex;
     justify-content: space-between;
@@ -14,6 +17,20 @@
 .nav__link{
     color: #2e363e;
     position: relative;
+}
+
+.nav__link .fa-heart {
+    position: absolute;
+    bottom: 25px;
+    left: 8px;
+    opacity: 0;        
+    transition: all 0.5s ease-in-out ;    
+}
+.nav__link:hover .fa-heart {
+    opacity: 1;
+    bottom: 30px;
+    left: 25px;
+    color: red;
 }
 @keyframes notificationAnimation {
     0% {
