@@ -2,7 +2,7 @@
 #no-landscape {
     position: absolute;
     z-index: 99;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     background-color: var(--yellow);
     display: flex;
@@ -25,7 +25,7 @@
     }
 }
 
-@media screen and (max-width: 646px) and (orientation: landscape){
+@media screen and (min-width: 646px) and (orientation: landscape){
     #no-mobile {
         display: none;
     }
